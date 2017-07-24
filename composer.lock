@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "118132464124278ad43c49160882fe2b",
+    "content-hash": "325215a796f9161076b087c9b2cc17a4",
+    "packages": [
+        {
+            "name": "miniflux/picofeed",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/miniflux/picoFeed.git",
+                "reference": "b25b74c8aee8e6af3d9c1b15e0772628ea313e0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/miniflux/picoFeed/zipball/b25b74c8aee8e6af3d9c1b15e0772628ea313e0c",
+                "reference": "b25b74c8aee8e6af3d9c1b15e0772628ea313e0c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PicoFeed": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Frédéric Guillot",
+                    "homepage": "http://fredericguillot.com"
+                }
+            ],
+            "description": "Modern library to write or read feeds (RSS/Atom)",
+            "homepage": "http://fguillot.github.io/picoFeed",
+            "time": "2015-01-07 01:50:53"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "miniflux/picofeed": 0
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
